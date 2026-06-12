@@ -1,6 +1,7 @@
 name: Step 2
 
 on:
+  workflow_dispatch: 
   pull_request_review:
     types: [submitted]
 
